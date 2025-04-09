@@ -56,21 +56,21 @@ timeline {
 }
 
 .timeline ul li .content {
-    width: 70%;
+    width: 50%;
     padding: 0 20px;
     padding-left: 0;
 }
 
 .timeline ul li .date {
-    width: 30%;
+    width: 50%;
     padding: 0 20px;
     padding-right: 0;
     font-weight: normal;
-    z-index: 10;
 }
 
 .timeline ul li .date h4 {
     background-color: #e1ccec;
+    width: 45%;
     text-align: center;
     padding: 5px 10px;
     border-radius: 10px;
@@ -84,7 +84,6 @@ timeline {
     margin-top: 0;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    z-index: 10;
 }
 
 .timeline ul li .content h3 {
@@ -99,28 +98,10 @@ timeline {
 .timeline::before {
     content: "";
     position: absolute;
-    height: 146%;
+    height: 136%;
     width: 3px;
-    left: 37.9%;
+    left: 50%;
     background-color: #333333;
-    z-index: 0;
-}
-.booknow{
-    color: #010A44;
-    font-weight: 600;
-}
-.booknow:hover{
-    color: #333333;
-    text-decoration: underline;
-}
-
-@media (max-width: 450px) {
-    .timeline::before {
-        display: none;
-        background-color: #fff !important;
-        width: 0px;
-
-    }
 }
 
 .timeline p {
@@ -130,9 +111,13 @@ hr.gradient {
     height: 3px;
     border: none;
     border-radius: 6px;
-    background: linear-gradient(90deg, rgba(13, 8, 96, 1) 0%, rgba(9, 9, 121, 1) 21%, rgba(6, 84, 170, 1) 51%, rgba(0, 255, 113, 1) 100%);
-    height: 3px !important;
-    margin: 0 !important;
+    background: linear-gradient(
+      90deg,
+      rgba(13, 8, 96, 1) 0%,
+      rgba(9, 9, 121, 1) 21%,
+      rgba(6, 84, 170, 1) 51%,
+      rgba(0, 255, 113, 1) 100%
+    );
   }
   .triangle {
     position: relative;
@@ -140,63 +125,9 @@ hr.gradient {
 
   }
   .about-area .about-img{
-    background-image: url(../img/hero/dean_tseren.jpg) !important;
+    background-image: url(../img/3-new.jpg) !important;
   }
-  /* section {
-    padding-top: 80px;   
-    margin-top: -80px;   
-  } */
-
-  section {
-    scroll-margin-top: 80px; /* Adjust this based on navbar height */
-    padding: 10px 20px;      /* Some padding inside the section */
-    min-height: 100vh;
-  }
-
-.section-padding10{
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-#navigation .btnlink{
-    border: none;
-    padding: 10px 20px;
-    text-transform: capitalize;
-    border-radius: 30px;
-    cursor: pointer;
-    color: #fff;
-    display: inline-block;
-    font-size: 18px;
-    font-weight: 600;
-    background-size: 200%;
-    transition: 0.6s;
-    background-image: linear-gradient(to left, #FF9F67, #ec8b53, #FF9F67);
-    background-position: right;
-}
-#navigation .btnlink:hover{
-    color: #704504;
- 
-    background-image: linear-gradient(to left, #FF9F67, #ec8b53, #FF9F67);
-}
-.link{
-    color: #010A44;
-    font-weight: 500;
-}
-.link:hover{
-    color: #891b02;
-    text-decoration: underline;
-    font-weight: 600;
-    
-}
-#navigation{
-    line-height: 15px;
-}
-
-  .bullet li{
-
-    list-style:disc !important;
-    margin-left: 25px;
-
-  }
+  
   .triangle::before {
     content: '';
     position: absolute;
