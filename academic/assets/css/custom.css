@@ -82,6 +82,14 @@ h5{
     font-size: larger;
 }
 
+.a-list{
+    text-decoration: dotted;
+    line-height: 200%;
+    list-style-type: circle;
+    list-style: disc;
+    color: #10285d;
+    margin-left: 26px;
+}
 .timeline .content .items {
     padding: 10px 20px;
     background-color: #e1d9ec;
