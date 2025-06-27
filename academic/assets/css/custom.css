@@ -118,14 +118,46 @@ b{
     color:#10285d !important
 }
 h1, h2, h3, h4, h5, h6{
-    color:#10285d !important
+    color:#10285d !important;
+    font-family:"Roboto";
+    font-weight: 400;
+
+}
+p span{
+    margin-right: 15px;
+    font-weight: 500;
+
+}
+#hotolbor tr{
+    border-bottom: 1px solid #ccc;
+
+}
+#hotolbor td{
+    border-bottom: 1px solid #ccc;
+    padding: 10px 15px;
+    margin: 10px 15px;
+    line-height: 29px;
+}
+#hotolbor p{
+    margin-bottom: 0px;
+    margin-bottom: 0px;
+    line-height: 20px;
+}
+.table-title{
+    padding: 10px 20px;
+    background-color: #be9fe1;
+    margin-bottom: 0;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 .time{
     border-bottom: 1px solid #10285d;
     padding-bottom: 5px;
+
 }
 hr{
-    margin-bottom: 15px !important;
+    padding-bottom: 5px !important;
 }
 
 .timeline::before {
