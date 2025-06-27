@@ -81,6 +81,12 @@ h5{
     font-weight: 400;
     font-size: larger;
 }
+.centered{
+    text-align: center;
+}
+.middle{
+    text-align: justify;
+}
 
 .a-list{
     text-decoration: dotted;
@@ -89,6 +95,7 @@ h5{
     list-style: disc;
     color: #10285d;
     margin-left: 26px;
+    text-align: left !important;
 }
 .timeline .content .items {
     padding: 10px 20px;
@@ -107,6 +114,16 @@ h5{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
+b{
+    color:#10285d !important
+}
+h1, h2, h3, h4, h5, h6{
+    color:#10285d !important
+}
+.time{
+    border-bottom: 1px solid #10285d;
+    padding-bottom: 5px;
+}
 hr{
     margin-bottom: 15px !important;
 }
@@ -114,7 +131,7 @@ hr{
 .timeline::before {
     content: "";
     position: absolute;
-    height: 53%;
+    height: 183%;
     width: 2px;
     left: 37.9%;
     background-color: #e5e5e5;
